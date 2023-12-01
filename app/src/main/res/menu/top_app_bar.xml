@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:title="@string/menu_ayuda_title"
-          android:id="@+id/ayudaFragment"
+    <item android:title="@string/menu_help_title"
+          android:id="@+id/helpFragment"
           android:icon="@drawable/baseline_help_outline_24"
           app:showAsAction="always"/>
-    <item android:title="@string/menu_acerca_de_title"
-          android:id="@+id/acercaDeFragment"
+    <item android:title="@string/menu_about_title"
+          android:id="@+id/aboutFragment"
           android:icon="@drawable/outline_info_24"
           app:showAsAction="ifRoom"/>
 </menu>

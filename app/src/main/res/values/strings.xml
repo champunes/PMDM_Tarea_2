@@ -3,6 +3,6 @@
     <string name="home_fragment_title">Inicio</string>
     <string name="btn_home_pedido">Hacer Pedido</string>
     <string name="register_fragment_title">Registro</string>
-    <string name="menu_ayuda_title">Ayuda</string>
-    <string name="menu_acerca_de_title">Acerca de...</string>
+    <string name="menu_help_title">Ayuda</string>
+    <string name="menu_about_title">Acerca de...</string>
 </resources>
