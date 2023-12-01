@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView((binding = ActivityMainBinding.inflate(getLayoutInflater())).getRoot());
-        binding.topAppBar.setTitle(getText(R.string.home_fragment_title));
+        binding.topAppBar.setTitle(getText(R.string.fragment_home_title));
         setSupportActionBar(binding.topAppBar);
 
         // Configuración de la barra de navegación
