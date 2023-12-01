@@ -16,11 +16,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView((binding = ActivityMainBinding.inflate(getLayoutInflater())).getRoot());
+        setSupportActionBar(binding.topAppBar);
 
         // Configuración de la barra de navegación
-        NavController navController =
-                ((NavHostFragment) getSupportFragmentManager().findFragmentById(
-                        R.id.nav_host_fragment)).getNavController();
+        NavController navController = ((NavHostFragment) getSupportFragmentManager().findFragmentById(
+                R.id.nav_host_fragment)).getNavController();
         AppBarConfiguration appBarConfiguration =
                 new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupWithNavController(binding.topAppBar, navController, appBarConfiguration);
