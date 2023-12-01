@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">PMDM Tarea 2</string>
-    <string name="home_fragment_title">Inicio</string>
+    <string name="fragment_home_title">Inicio</string>
     <string name="btn_home_pedido">Hacer Pedido</string>
-    <string name="register_fragment_title">Registro</string>
+    <string name="fragment_register_title">Registro</string>
     <string name="menu_help_title">Ayuda</string>
     <string name="menu_about_title">Acerca de...</string>
+    <string name="fragment_help_title">Ayuda</string>
+    <string name="fragment_about_title">Acerca de...</string>
 </resources>
