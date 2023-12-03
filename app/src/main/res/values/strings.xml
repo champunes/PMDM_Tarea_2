@@ -19,5 +19,6 @@
     <string name="fragment_about_copyright">2023 ©</string>
     <string name="fragment_about_social_id">\@champunes</string>
     <string name="fragment_about_social_url">https://bsky.app/profile/champunes.bsky.social</string>
+    <string name="fragment_home_iv_content">Logo de BurgerMar</string>
 
 </resources>
