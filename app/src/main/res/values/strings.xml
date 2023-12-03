@@ -20,5 +20,15 @@
     <string name="fragment_about_social_id">\@champunes</string>
     <string name="fragment_about_social_url">https://bsky.app/profile/champunes.bsky.social</string>
     <string name="fragment_home_iv_content">Logo de BurgerMar</string>
+    <string name="fragment_register_name_hint">Nombre</string>
+    <string name="fragment_register_tlf_hint">Teléfono</string>
+    <string name="fragment_register_collection_hint">Recogida</string>
+    <string-array name="opciones_recogida">
+        <item>A domicilio</item>
+        <item>Establecimiento</item>
+    </string-array>
+    <string name="fragment_register_address_hint">Domicilio</string>
+    <string name="btn_clear_text">Limpiar</string>
+    <string name="btn_next_text">Siguiente</string>
 
 </resources>
