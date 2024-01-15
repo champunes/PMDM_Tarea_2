@@ -48,6 +48,11 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.onNavDestinationSelected(item, navController) || super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public boolean onSupportNavigateUp() {
+        return navController.navigateUp() || super.onSupportNavigateUp();
+    }
+
     // Ocultar el teclado cuando se pulsa fuera de un campo de texto
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
