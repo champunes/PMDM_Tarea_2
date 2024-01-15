@@ -19,10 +19,6 @@ public class AboutFragment extends Fragment {
 
     private FragmentAboutBinding binding;
 
-    public AboutFragment() {
-        // Required empty public constructor
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

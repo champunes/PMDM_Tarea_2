@@ -16,10 +16,6 @@ public class HomeFragment extends Fragment {
     private FragmentHomeBinding binding;
     private NavController navController;
 
-    public HomeFragment() {
-        // Required empty public constructor
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -16,10 +16,6 @@ public class RegisterFragment extends Fragment {
 
     private FragmentRegisterBinding binding;
 
-    public RegisterFragment() {
-        // Required empty public constructor
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
