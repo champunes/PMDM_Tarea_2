@@ -16,7 +16,10 @@
     <fragment android:id="@+id/registerFragment"
               android:name="com.iesaguadulce.pmdmtarea2.RegisterFragment"
               android:label="@string/fragment_register_title"
-              tools:layout="@layout/fragment_register"/>
+              tools:layout="@layout/fragment_register">
+        <action android:id="@+id/action_registerFragment_to_burgerFragment"
+                app:destination="@id/burgerFragment"/>
+    </fragment>
 
     <fragment android:id="@+id/helpFragment"
               android:name="com.iesaguadulce.pmdmtarea2.HelpFragment"
@@ -27,4 +30,11 @@
               android:name="com.iesaguadulce.pmdmtarea2.AboutFragment"
               android:label="@string/fragment_about_title"
               tools:layout="@layout/fragment_about"/>
+    <fragment android:id="@+id/burgerFragment"
+              android:name="com.iesaguadulce.pmdmtarea2.BurgerFragment"
+              android:label="@string/fragment_burger_title"
+              tools:layout="@layout/fragment_burger">
+        <argument android:name="pedido"
+                  app:argType="com.iesaguadulce.pmdmtarea2.Order"/>
+    </fragment>
 </navigation>
